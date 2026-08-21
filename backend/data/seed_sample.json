@@ -1,0 +1,48 @@
+[
+    {
+      "type": "mcq",
+      "year": 2024,
+      "unit": 1,
+      "prompt": "Consider the following code segment. What is the value of result after execution?\n\nint x = 5;\nint y = 2;\nint result = x / y;",
+      "choices": [
+        {"key": "A", "text": "2.5"},
+        {"key": "B", "text": "2"},
+        {"key": "C", "text": "3"},
+        {"key": "D", "text": "2.0"}
+      ],
+      "answer": "B",
+      "explanation": "Integer division: 5 / 2 = 2, not 2.5. Java uses integer division when both operands are int.",
+      "source": "sample_2024"
+    },
+    {
+      "type": "mcq",
+      "year": 2024,
+      "unit": 2,
+      "prompt": "Which of the following is the most appropriate use of a for loop instead of a while loop?",
+      "choices": [
+        {"key": "A", "text": "Reading user input until they type a sentinel value"},
+        {"key": "B", "text": "Iterating a known number of times"},
+        {"key": "C", "text": "Repeating until a boolean condition becomes false"},
+        {"key": "D", "text": "Continuing a game loop until the player quits"}
+      ],
+      "answer": "B",
+      "explanation": "for loops are designed for cases where the number of iterations is known ahead of time.",
+      "source": "sample_2024"
+    },
+    {
+      "type": "mcq",
+      "year": 2023,
+      "unit": 4,
+      "prompt": "Consider a class Dog that extends Animal. If Animal has a method speak() and Dog overrides it, which of the following must be true?",
+      "choices": [
+        {"key": "A", "text": "The speak() method must be public in both classes"},
+        {"key": "B", "text": "The override can have a less restrictive access modifier"},
+        {"key": "C", "text": "The override must have the same parameter list"},
+        {"key": "D", "text": "The override can throw any checked exception"}
+      ],
+      "answer": "C",
+      "explanation": "Method overriding requires the same parameter list. Return type can be covariant (narrower), and access cannot be more restrictive, but parameters must match exactly.",
+      "source": "sample_2023"
+    }
+  ]
+  
